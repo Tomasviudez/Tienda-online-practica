@@ -9,5 +9,6 @@ Preguntas que este proyecto responde:
 ¿Qué clientes llevan más tiempo sin comprar? 
 
 ¿Cuánto vale cada cliente históricamente? (Valor de cliente)
+✅Recomendación
 
 Cruzando días sin comprar  y valor del cliente se puede armar una lista de prioridad real para el equipo de retención: no alcanza con saber quién dejó de comprar, importa también cuánto valía ese cliente. Encapsulé la lógica en vistas de SQL (CREATE VIEW) para que el análisis sea reutilizable y se pueda conectar directo a una herramienta de BI sin repetir código cada vez que se necesite el reporte.
